@@ -16,14 +16,14 @@ const successIndicatorSelector = '.success-indicator'; // replace with actual se
   await page.waitForSelector(emailSelector);
   console.log('Email input found');
 
-  await page.type(emailSelector, 'cwalton@twilio.com');
+  await page.type(emailSelector, '');
   
   console.log('Email input filled');
 
   await page.waitForSelector(passwordSelector);
   console.log('Password input found');
 
-  await page.type(passwordSelector, 'V@der132!!');
+  await page.type(passwordSelector, '');
   console.log('Password input filled');
 
   await page.waitForSelector(loginButtonSelector);
