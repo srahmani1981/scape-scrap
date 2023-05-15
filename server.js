@@ -19,10 +19,10 @@ const loginButtonSelector = 'button[type="submit"]';
   console.log('Password input found');
 
   const emailInput = await page.$(emailSelector);
-  await emailInput.type('cwalton@twilio.com');
+  await emailInput.type('');
 
   const passwordInput = await page.$(passwordSelector);
-  await passwordInput.type('V@der132!!');
+  await passwordInput.type('');
 
   const loginButton = await page.$(loginButtonSelector);
   await loginButton.click();
